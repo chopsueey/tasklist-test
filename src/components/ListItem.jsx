@@ -7,7 +7,7 @@ export default function ListItem({ task, id, list, setList }) {
   const [edit, setEdit] = useState(false);
   const [newTask, setNewTask] = useState("");
 
-  const baseURL = "http://localhost:3029/tasks";
+  const baseURL = "https://tasklist-server.onrender.com/tasks";
 
   const deleteTask = async () => {
     try {

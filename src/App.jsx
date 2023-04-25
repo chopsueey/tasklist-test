@@ -4,7 +4,7 @@ import axios from "axios";
 import "./App.scss";
 import ListItem from "./components/ListItem";
 
-const baseURL = "http://localhost:3029/tasks";
+const baseURL = "https://tasklist-server.onrender.com/tasks";
 
 function App() {
   const [task, setTask] = useState("");
